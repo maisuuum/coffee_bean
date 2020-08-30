@@ -1,0 +1,479 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: #312a26;
+    box-sizing: border-box;
+    outline: none;
+
+}
+body{
+    width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Oswald",sans-serif;
+}
+p,
+input,
+label,
+span,
+a{
+    font-family: 'Open Sans',  sans-serif;
+}
+.nav a{
+   
+    font-family: "Oswald",sans-serif;
+    color: #312a26;
+    text-decoration: none;
+}
+.nav li{
+ 
+    display: inline-block;
+}
+.nav{
+ 
+    overflow: auto;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.nav h1{
+
+    width: 50%;
+    float: left;
+
+}
+.nav ul {
+ 
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-top: 10px;
+}
+
+a:hover{
+    color: #c7a17a;
+}
+
+/* banner area */
+.banner{
+ 
+    height: 650px;
+    background-image: url("../images/atf-image.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+}
+
+.banner-text {
+
+    width: 30%;
+    position: relative;
+    top: 20%;
+    left: 7.5%;
+}
+
+.banner-text h2{
+
+    text-transform: uppercase;
+    font-size: 75px;
+    line-height:75px;
+}
+.banner-text p{
+
+    font-style: italic;
+    margin-bottom: 15px;
+}
+.banner-text a{
+
+    padding: 15px 20px;
+    background-color: #312a31;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.banner span{  
+
+    font-family:"Oswald", sans-serif;
+    color: #4caf50;
+
+    
+}
+
+/* Ads Area */
+.ads {
+
+    width: 85%;
+    overflow: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5%;
+}
+.ads-box {
+
+    width: 49.5%;
+    float: left;
+    height: 350px;  
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* pseudo selector :selecting the desured child */
+.ads1 .ads-box:nth-child(1) {
+    background-image: url(../images/merchandise1.jpg);
+}
+/* pseudo selector :selecting the desured child */
+.ads1 .ads-box:nth-child(2) {
+    background-image: url(../images/merchandise2.jpg);
+}
+
+.ads2 .ads-item3,
+.ads2 .ads-item4 {
+ margin-bottom: 1%;
+}
+
+.ads2 .ads-item3{
+    background-image: url(../images/merchandise3.jpg);
+}
+.ads2 .ads-item4{
+    background-image: url(../images/merchandise4.jpg);
+}
+.ads2 .ads-item5{
+    background-image: url(../images/merchandise5.jpg);
+    margin-right: 1%;
+}
+.ads2 .ads-item6{
+    background-image: url(../images/merchandise6.jpg);
+}
+.ads-box:nth-child(1) {
+
+    margin-right: 1%;
+}
+
+
+.ads-text {
+
+    width: 30%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.ads-text h3 {
+
+    color: white;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.ads-text a {
+
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+/* merchandise Area */
+
+.merch{
+
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5%;
+}
+.div-title{
+
+    text-align: center;
+    margin-bottom: 5%;
+}
+.div-title span{
+
+    font-style: italic;
+    font-size: 20px;
+    color: #c7a17a;
+}
+.div-title h2{
+
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #321a26;
+    margin-bottom: 20px;
+}
+.div-title hr{
+
+    width: 10%;
+    height: 4px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #c7a17c;
+}
+.merch-gallery{
+
+    overflow: auto;   
+    margin-top: 20px;
+}
+.merch-item{
+    width: 24.25%;
+    float: left;
+    margin-right: 1%;
+}
+.merch-gallery .merch-item:nth-child(4),
+.merch-gallery .merch-item:nth-child(8){
+    margin-right: 0%;
+}
+ 
+.merch-gallery .merch-item:nth-child(1)
+.merch-gallery .merch-item:nth-child(2)
+.merch-gallery .merch-item:nth-child(3)
+.merch-gallery .merch-item:nth-child(4){
+    margin-bottom: 1%;
+}
+
+.merch-item img{
+    width: 100%;
+}
+.merch-item h3{
+    color: #312a26;
+}
+
+.merch-item span{
+    color: #c7a17a;
+}
+
+.merch-item p{
+    color: #c7a17a;
+}
+
+/* Ads Big Area */
+.ads-big{
+
+    height: 400px;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    /* margin 0 auto |top&bottom right&left */
+    position: relative;
+    margin-bottom: 20px;
+}
+.ads-big-text {
+
+    width: 50%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.ads-big-text span{
+
+    color: #c7a17a;
+    font-style: italic;
+    font-size: 25px;
+}
+.ads-big-text h2{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.ads-big-text a{
+    color: #312a26;
+    background-color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-block;   
+}
+/* Reservation Form */
+
+.reservation {
+   
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+}
+.res-form {
+    overflow: auto;
+}
+.res-form-left{
+    margin-right: 1%;
+}
+
+.res-form-left,
+.res-form-right{
+    background-color: #f2f2f2;
+    width: 49.5%;
+    float: left;
+    padding: 2%;
+    border-radius: 5px;
+}
+.res-form label,
+.res-form input,
+.res-form textarea,
+.res-form select{
+    display: block;
+    width: 100%;
+    font-family: "open sans" sans-serif;
+}
+
+.res-form input,
+.res-form textarea,
+.res-form select{
+    padding: 10px;
+    margin-bottem:10px;
+}
+.res-form label{
+    font-weight: 700;
+}    
+input.form-inline,
+label.form-inline{
+    display: inline;
+    width: auto;
+}
+.subtitle{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn{
+    background-color: #4caf50;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Footer Area */
+.footer{
+    overflow: auto;
+    background-image: url(../images/footer-image.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 2.5%;
+}
+.footer-content {
+    overflow: auto;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.footer-content > div {
+    width: 24.25%;
+    float: left;
+    margin-right: 1%;
+    
+}
+.footer-content > div:nth-child(4){
+    margin-right: 0;
+}
+.footer-content h3 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer-content th,
+.footer-content td{
+    color: #ffffff;
+    font-family: "open sans" sans-serif;
+}
+.latest-post h4{
+    color: white;
+    text-transform: uppercase;
+}
+.latest-post p{
+    color: #c7a17a;
+}
+.contact p{
+    color: white;
+    font-weight: 700;
+}
+.contact input {
+    color: #312a26;
+    background-color: white;
+    padding: 10px
+}
+
+.contact input [type="submit"] {
+    background-color:#c7a17a;
+}
+
+.location h4{
+    color: #c7a17a;
+    text-transform: uppercase;
+    margin-top: 15px;
+
+}
+.location p{
+    color: white;
+    font-weight: 700;
+}
+
+.contact .highlight{
+    color: #c7a17a;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.title2{
+    margin-top: 15px;
+}
+
+/* Footer Area2 */
+
+.footer2 {
+ 
+    background-color: black;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+.footer2 h2,
+.footer2 p,
+.footer2 a{
+    color: white;
+}
+.footer2 li{
+    display: inline-block;
+}
+.footer2 .social{
+
+    text-align: center;
+    width: 49.5%;
+}
+
+.footer2 .logo{
+ 
+}
+.footer2 .copyright{
+    margin-right: 0;
+}
+
+@media screen and (max-width: 768px)  {
+/* If the Screen siez is 0-7768px,it will apply these css */
+
+    .ads-box{
+        width:100%
+    }
+
+    .nav ul {
+        display: none;
+    }
+}
